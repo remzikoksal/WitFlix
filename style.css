@@ -10,8 +10,14 @@ body {
 .bolum {
   display: flex;
   margin: 4px;
+ 
 }
-
+.bolum.banner{
+   border: 1px solid black;
+  padding: 15px;
+  margin: 20px;
+  width: fit-content;
+}
 .header {
   flex-direction: row;
   justify-content: space-between;
@@ -26,7 +32,17 @@ body {
 #topic-container {
   display: flex;
   gap: 10px;
+  
 }
+#topic-container a{
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  
+
+}
+
+
 
 #right-container {
   display: flex;
@@ -71,6 +87,7 @@ body {
   color: red;
   font-weight: bold;
   list-style-type: none;
+
 }
 
 .red-title-explanation {
@@ -89,3 +106,112 @@ body {
   border-radius: 8px;
   color: white;
 }
+.popular-movies {
+  margin: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: px;
+}
+.section-header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+.movie-list {
+  display: flex;
+justify-content: space-between; 
+  flex-wrap: wrap;
+  width: 100%;
+}
+.movie-list h4{
+  font-size: px;
+  color: black
+  
+}
+
+.movie-card {
+ flex: 1;
+ width: max-content;
+  margin: 5px;
+  border: 1px solid black;
+  padding: 40px;
+  background-color: white;
+}
+
+.play-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.play-button:hover {
+  background-color: darkred;
+}
+
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #b60000;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.footer-left a {
+  margin-right: 15px;
+  text-decoration:underline;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer-left p {
+  margin-top: 10px;
+  max-width: 600px;
+  color: #ffffff;
+ 
+}
+
+.footer-right {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.footer-right .social,
+.footer-right .apps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.social p{
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.apps p{
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-right img {
+  height: 30px;
+  margin-top: 5px;
+}
+
