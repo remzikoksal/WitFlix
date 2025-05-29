@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+.bolum {
+  display: flex;
+  margin: 4px;
+}
+
+.header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+#logo-text {
+  color: red;
+}
+
+#topic-container {
+  display: flex;
+  gap: 10px;
+}
+
+#right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#avatar {
+  background-color: coral;
+  border-radius: 14px;
+  padding: 4px;
+}
+
+.banner {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  line-height: 20px;
+}
+
+#rating-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.movies {
+  height: 200px;
+  background-color: cornflowerblue;
+}
+
+.footer {
+  height: 100px;
+  background-color: cornflowerblue;
+}
+
+.red-title {
+  color: red;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.red-title-explanation {
+  color: black;
+  font-weight: 100;
+}
+
+#play-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: red;
+  width: 120px;
+  padding: 8px;
+  border-width: 0;
+  border-radius: 8px;
+  color: white;
+}
